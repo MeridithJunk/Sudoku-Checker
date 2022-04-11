@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuChecker", "SudokuChecker\SudokuChecker.csproj", "{254A378C-9231-4363-8E35-8A37743B3D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuCheckerTests", "SudokuCheckerTests\SudokuCheckerTests.csproj", "{C290A674-7B3B-4487-A469-07D5DD76E795}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{254A378C-9231-4363-8E35-8A37743B3D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254A378C-9231-4363-8E35-8A37743B3D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254A378C-9231-4363-8E35-8A37743B3D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254A378C-9231-4363-8E35-8A37743B3D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C290A674-7B3B-4487-A469-07D5DD76E795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C290A674-7B3B-4487-A469-07D5DD76E795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C290A674-7B3B-4487-A469-07D5DD76E795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C290A674-7B3B-4487-A469-07D5DD76E795}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
