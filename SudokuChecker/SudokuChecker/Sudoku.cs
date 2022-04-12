@@ -2,8 +2,9 @@ namespace SudokuChecker;
 
 public class Sudoku
 {
-    public bool Checker()
+    public bool Checker(int[] sudoku)
     {
-        return true;
+        var set = new HashSet<int>(sudoku);
+        return set.Count == 9;
     }
 }
