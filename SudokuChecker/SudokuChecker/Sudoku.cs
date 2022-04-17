@@ -4,7 +4,7 @@ public class Sudoku
 {
     public bool Checker(int[,] sudoku)
     {
-        return blockChecker(sudoku) && HorizontalRowChecker(sudoku);
+        return blockChecker(sudoku) && RowChecker(sudoku);
     }
 
     private bool blockChecker(int[,] sudoku)
@@ -44,7 +44,7 @@ public class Sudoku
         return result;
     }
 
-    private static bool HorizontalRowChecker(int[,] sudoku)
+    private static bool RowChecker(int[,] sudoku)
     {
         var result = true;
         for (var row = 0; row <= 8; row++)
